@@ -635,7 +635,7 @@ public class LoyaltyCardEditActivity extends CatimaAppCompatActivity {
                         setCardImage(cardImageBack, Utils.resizeBitmap(bitmap, Utils.BITMAP_SIZE_BIG), true);
                     } else {
                         mIconUnsaved = true;
-                        setCardImage(thumbnail, Utils.resizeBitmap(bitmap, Utils.BITMAP_SIZE_SMALL), false);
+                        setCardImage(thumbnail, Utils.resizeBitmap(bitmap, Utils.BITMAP_SIZE_BIG), false);
                         thumbnail.setBackgroundColor(Color.TRANSPARENT);
                         setColorFromIcon();
                     }
